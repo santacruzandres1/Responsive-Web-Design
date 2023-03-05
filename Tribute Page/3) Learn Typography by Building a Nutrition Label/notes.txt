@@ -1,0 +1,3 @@
+Typography is the art of styling your text to be easily readable and suit its purpose. In this course, you'll use typography to build a nutrition label webpage. You'll learn how to style text, adjust line height, and position your text using CSS.
+
+La tipografía es el arte de diseñar su texto para que sea fácil de leer y se adapte a su propósito. En este curso, usará tipografía para crear una página web de etiquetas nutricionales. Aprenderá cómo aplicar estilo al texto, ajustar la altura de la línea y colocar el texto usando CSS.

@@ -1,0 +1,2 @@
+CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size, and other aspects of HTML elements. In this course, you'll learn CSS by designing a menu page for a cafe webpage.
+CSS le dice al navegador cómo mostrar su página web. Puede usar CSS para establecer el color, la fuente, el tamaño y otros aspectos de los elementos HTML. En este curso, aprenderá CSS mediante el diseño de una página de menú para la página web de una cafetería.

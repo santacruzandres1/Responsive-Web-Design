@@ -1,0 +1,6 @@
+Accessibility is making your webpage easy for all people to use – even people with disabilities.
+
+In this course, you'll build a quiz webpage. You'll learn accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.
+
+
+La accesibilidad hace que su página web sea fácil de usar para todas las personas, incluso las personas con discapacidades. En este curso, creará una página web de prueba. Aprenderá herramientas de accesibilidad como métodos abreviados de teclado, atributos ARIA y prácticas recomendadas de diseño.
