@@ -132,6 +132,7 @@ tr.data th {
   padding: 0.3rem;
   padding-left: 0.5rem;
 }
+
 tr.data th .description {
   font-weight: normal;
   display: block;
@@ -139,11 +140,6 @@ tr.data th .description {
   padding: 1rem 0 0.75rem;
   margin-right: -13.5rem;
 }
-
-tr.data td {
-  text-align: 
-}
-
 
 tr.data td {
   vertical-align: top;
