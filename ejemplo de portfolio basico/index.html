@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portafolio</title>
+	<!-- Estilos CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+	<!-- Sección de bienvenida -->
+	<section id="welcome-section">
+		<h1>Bienvenido a mi portafolio</h1>
+	</section>
+
+	<!-- Sección de proyectos -->
+	<section id="projects">
+		<div class="project-tile">
+			<h2>Proyecto 1</h2>
+			<a href="#">Ver proyecto</a>
+		</div>
+	</section>
+
+	<!-- Barra de navegación -->
+	<nav id="navbar">
+		<a href="#">Inicio</a>
+		<a href="#">Proyectos</a>
+		<a href="#" id="profile-link" target="_blank">Mi perfil de GitHub</a>
+	</nav>
+  
+  <!--Contacto-->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"><br>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo"><br>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje"></textarea><br>
+
+      <input type="submit" value="Enviar">
+
+      <!--Formulario de Satisfaccion-->
+      <div class="container">
+        <div class="row">
+
+        
+    <h1 id="title">Satisfaction Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve</p>
+    <form id='survey-form'>
+        <fieldset>
+            <label id="name-label">     Name    <input type="text"  id="name" placeholder="Enter your name" required/></label>
+            <label id="email-label">    Email   <input type="email" id="email" placeholder="Enter you email" required/></label>
+            <label id="number-label">   Age (Optional)     <input type="number" id="number" min="18" max="120" placeholder="Age"/></label>
+        </fieldset> 
+        <fieldset>
+            <label for="recommendation">
+                <input type="radio" id="recomendiation-yes" name="yes-no" value="yes-no"/>
+                <input type="radio" id="recomendiation-no" name="yes-no" value="yes-no"/>
+            </label>
+           
+        </fieldset>
+        <fieldset>
+            <select id="dropdown" name="dropdown">
+                <option></option>
+                <option></option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <input type="checkbox" value="1" id=""/>
+            <input type="checkbox" value="2" id=""/>
+        </fieldset>    
+        <fieldset>
+            <label for="textarea">Any comments or suggestions? 
+                <textarea type="textarea" id="textarea" name="textarea" placeholder="Enter your comment here"></textarea>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="submit">
+            <button type="submit" id="submit">Submit</button>
+            </label>
+        </fieldset>
+    </form>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+    
+          <div class="col"> Column </div>
+    
+          <div class="col"> Column </div>
+    
+          <div class="col"> Column </div>
+    
+        </div>
+    
+      </div>
+      
+    </form>
+  </section>
+</body>
+</html>
