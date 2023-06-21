@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header id="header">
+            <div id="logo">
+                <img id="header-img" src="img/isologo-vector.svg" alt="logo">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#about" class="nav-link">How It Work</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <!--<li><a href="#pricing" class="nav-link">Pricing</a></li>-->
+                     <li><a href="#footer" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="hero">
+                <h1>¡Te damos la <br><span class="bold">bienvenida</span>!</h1>
+                <h3>¿Querés saber dónde está tu envíó?</h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit"  class="search-container">
+                    <input type="email" name="email" id="email" placeholder="Enter your email adress" class="input-search" required>
+                    <input type="submit" id="submit" value="Search" class="btn-search">
+                </form>
+            </div>
+            <section id="about">
+                <div class="container-somos">
+                    <div class="video-container">
+                        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cy69AKDWs7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="text-container">
+                        <h2>¡Tenemos mucho <span class="bold"><br>para contarte</span>!</h2>
+                        <p>Somos una empresa de logística confiable y eficiente, comprometida con la satisfacción del cliente y la entrega puntual de productos. Ofrecemos soluciones logísticas integrales adaptadas a las necesidades de cada cliente, gestionando todos los aspectos de la logística con un equipo altamente capacitado y tecnología avanzada. Valoramos las relaciones a largo plazo y buscamos establecer asociaciones basadas en la confianza mutua.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="features">
+                <h2>¡Te ofrecemos <br><span class="bold">las mejores características</span>!</h2>
+                <div class="grid-features">
+                    <div class="grid-icons">
+                        <img src="img/icons/ubicacion-rojo.svg" alt="ubicación" class="icon ubicacion">
+                        <h4 class="icon">Ubicación estratégica</h4>
+                        <p class="icon-description">Acceso privilegiado a redes de transporte clave para una distribución eficiente.</p>
+                    </div>
+                    <div class="grid-icons">
+                        <img src="img/icons/seguridad-rojo.svg" alt="seguridad" class="icon seguridad">
+                        <h4 class="icon">Seguridad</h4>
+                        <p class="icon-description"> Protección avanzada y rigurosos protocolos para garantizar la seguridad de tus envíos.</p>
+                    </div>
+                    <div class="grid-icons">
+                        <img src="img/icons/sustentabilidad-rojo.svg" alt="sustentabilidad" class="icon sustentabilidad">
+                        <h4 class="icon">Sustentabilidad</h4>
+                        <p class="icon-description">Compromiso con prácticas logísticas sostenibles y responsables con el medio ambiente.</p>
+                    </div>
+                    <div class="grid-icons">
+                        <img src="img/icons/sinergia-rojo.svg" alt="sinergia" class="icon sinergia">
+                        <h4 class="icon">Sinergia</h4>
+                        <p class="icon-description">Coordinación y colaboración eficiente para optimizar tu cadena de suministro.</p>
+                    </div>
+                    <div class="grid-icons">
+                        <img src="img/icons/versatilidad-rojo.png" alt="versatilidad" class="icon versatilidad">
+                        <h4 class="icon">Versatilidad</h4>
+                        <p class="icon-description">Soluciones logísticas flexibles y personalizadas para adaptarse a tus necesidades cambiantes.</p>
+                    </div>
+                    <div class="grid-icons">
+                        <img src="img/icons/logistica-rojo.svg" alt="logística" class="icon logistica">
+                        <h4 class="icon-title">Logística</h4>
+                        <p class="icon-description">Experiencia en servicios integrales, desde almacenamiento hasta seguimiento en tiempo real.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="nuestras-propuestas">
+                <div class="container">
+                    <h2>¡Conocé las soluciones <span class="bold">personalizadas</span> que tenemos para vos!</h2>
+                    <div class="propuestas">
+                        <div class="cards">
+                            <img src="img/icons/pymes-rojo.svg" alt="pyme" class="cards-img">
+                            <h3>¿Tenés una Pyme?</h3>   
+                            <p>Ofrecemos soluciones logísticas personalizadas para PyMEs, adaptadas a sus necesidades únicas y brindando un soporte integral en la gestión de su cadena de suministro.</p>
+                            <button class="btn">Más info</button>
+                        </div>
+                        <div class="cards">
+                            <img src="img/icons/infraestructura-rojo.svg" alt="empresa" class="cards-img">
+                            <h3>¿Tenés una empresa?</h3>
+                            <p>Nuestras soluciones logísticas personalizadas para empresas se diseñan específicamente para optimizar la eficiencia, reducir costos y garantizar una entrega puntual y confiable de sus productos.</p>
+                            <button class="btn">Más info</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            </div>
+        
+        </main>
+        <footer id="footer">
+            <img src="img/isologo-vector.svg" alt="logo" class="img-footer">
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <span>&copy;Santa Cruz Co.</span>
+          </footer>
+   <script src="script.js"></script>
+</body>
+</html>
+<!--User Stories:
+
+1]  Your product landing page should have a header element with a corresponding id="header"
+    (Tu página de aterrizaje del producto debe tener un elemento de encabezado con el
+    correspondiente id="header".) [/] 
+
+2]   You can see an image within the header element with a 
+    corresponding id="header-img" (A logo would make a good image here)
+    (Debes ver una imagen dentro del elemento de encabezado con el
+    correspondiente id="header-img" (Un logotipo sería una buena imagen aquí).) [/]
+
+3]  Within the #header element, you can see a nav element with a corresponding id="nav-bar"
+    (Dentro del elemento #header, puedes ver un elemento de navegación con el correspondiente
+    id="nav-bar".)[/]
+
+4]  You can see at least three clickable elements inside the nav element, each with the class nav-link
+    (Debes ver al menos tres elementos clicables dentro del elemento de navegación, cada uno con la
+    clase nav-link.)[/]
+
+5]  When you click a .nav-link button in the nav element, you are taken to the corresponding section of
+    the landing page
+    (Cuando hagas clic en un botón .nav-link en el elemento de navegación, se te llevará a la sección
+    correspondiente de la página de aterrizaje.)
+
+6]  You can watch an embedded product video with id="video"
+    (Puedes ver un video de producto incrustado con el id="video".)
+
+7]  Your landing page has a form element with a corresponding id="form"
+    (Tu página de aterrizaje tiene un elemento de formulario con el correspondiente id="form".)
+
+8]  Within the form, there is an input field with id="email" where you can enter an email address
+    (Dentro del formulario, hay un campo de entrada con el id="email" donde puedes ingresar una 
+    dirección de correo electrónico.)
+
+9]  The #email input field should have placeholder text to let users know what the field is for
+    (El campo de entrada #email debe tener texto de marcador de posición para indicar a los 
+    usuarios para qué se utiliza el campo.)
+
+10] The #email input field uses HTML5 validation to confirm that the entered text is an email address
+    (El campo de entrada #email utiliza la validación HTML5 para confirmar que el texto ingresado es 
+    una dirección de correo electrónico.)
+
+11] Within the form, there is a submit input with a corresponding id="submit"
+    (Dentro del formulario, hay un botón de envío con el correspondiente id="submit".)
+
+12] When you click the #submit element, the email is submitted to a static page (use this mock URL:
+    https://www.freecodecamp.com/email-submit)
+    (Cuando hagas clic en el elemento #submit, se envía el correo electrónico a una página 
+    estática (utiliza esta URL simulada: https://www.freecodecamp.com/email-submit).)
+
+13) The navbar should always be at the top of the viewport
+    (La barra de navegación siempre debe estar en la parte superior de la ventana gráfica.)
+
+14) Your product landing page should have at least one media query
+    (Tu página de aterrizaje del producto debe tener al menos una consulta de medios (media query))
+
+15) Your product landing page should utilize CSS flexbox at least once-
+    (Tu página de aterrizaje del producto debe utilizar CSS flexbox al menos una vez)
+
+Cumple las historias de usuario y aprueba todas las pruebas a continuación para completar este proyecto.
+Dale tu propio estilo personal. ¡Feliz codificación!
+
+Nota: Asegúrate de agregar <link rel="stylesheet" href="styles.css"> en tu HTML para enlazar 
+tu hoja de estilos y aplicar tu CSS.
+
+->

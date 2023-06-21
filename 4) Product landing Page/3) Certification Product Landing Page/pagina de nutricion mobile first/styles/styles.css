@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 3.5em;
+    color: rgb(240, 240, 240);
+}
+h2{font-size: 2.7em;}
+h3{font-size: 1.5em;}
+ul{list-style: none;}
+.color-span{
+    color: rgb(255, 166, 0);
+}
+.btn{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: rgb(240, 240, 240);
+    background-color: rgb(255, 166, 0);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.5);
+}
+.btn:hover{
+
+    background-color: rgba(240, 140, 02, 0.929);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgba(220,220,220, .5);
+}
+
+#header-img img{
+    height: 10rem;
+    width: 10rem;
+}
+
+header .container {
+   margin: 0;
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+
+}
+
+#header-img img,
+#header-img p {
+    margin: 0;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: rgb(255, 166, 0);
+  font-size: 1.6rem;
+}
+
+header a{
+  color: black;  
+} 
+header a:hover{
+    color: rgb(255, 166, 0);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:url("/img/hero-large-2400x1764.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#somos-nutri{
+
+}
+
+#somos-nutri .container{
+    text-align: canter;
+    padding: 200px 12px;
+}
+#nuestros-planes{
+    background-color: rgba(220,220,220, .5);
+    text-align: center;
+}
+
+#nuestros-planes .container{
+    padding: 100px 0px;
+}
+
+#nuestros-planes p{
+    display: none;
+}
+#nuestros-planes h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+#nuestros-planes .card{
+    margin: 30px;
+    padding: 50px 0;
+    color: rgb(240, 240, 240);
+    padding: 2px 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.card:first-child {
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, .5),
+      rgba(0, 0, 0, .5)
+    ), url("/img/recetas.jpg");
+
+  }
+  
+
+.card:nth-child(2){   
+    background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, .5),
+    rgba(0, 0, 0, .5)
+  ), url("/img/consulta-online.jpg");
+}
+
+.card:last-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+      ), url("/img/educacuin-nutricional.jpg");
+
+}

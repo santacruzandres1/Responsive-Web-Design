@@ -1,0 +1,23 @@
+/*color: #616161*/
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 3.5em;
+    color: rgb(240, 240, 240);
+}
+h2{font-size: 2.7em;}
+h3{font-size: 1.5em;}
+ul{list-style: none;}
+.color-span{
+    color: rgb(255, 166, 0);
+}
